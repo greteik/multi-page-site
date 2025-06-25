@@ -449,8 +449,85 @@ body {
     background-color: #151515;
     padding: 13px 63px;
     color: #fff;
-    width: 225px;
+    width: 227px;
     margin: 0 auto;
     text-align: center;
     display: block;
+}
+
+.choose {
+    padding: 100px 0 150px;
+}
+
+.section__title {
+
+}
+
+.tabs {
+
+}
+
+.tabs__btn {
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 0 80px;
+    padding-bottom: 100px;
+}
+
+.tabs__btn-item {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.tabs__btn-item--active {
+    color: #0066FF;
+}
+
+.tabs__content-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card__img {
+    display: block;
+}
+
+.card__content {
+    padding: 0 5px;
+    border: 1px solid #0066FF;
+    border-top: 0;
+}
+
+.card__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card__text {
+    margin-bottom: 20px;
+}
+
+.card__price {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card__link {
+    display: block;
+    color: #0066FF;
+    border: 1px solid  #0066FF;
+    border-top: 0;
 }
